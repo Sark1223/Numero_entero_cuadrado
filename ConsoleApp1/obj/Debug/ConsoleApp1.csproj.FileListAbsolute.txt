@@ -1,0 +1,7 @@
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\santo\Documents\GitHub\U5\Numero_entero_cuadrado\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
