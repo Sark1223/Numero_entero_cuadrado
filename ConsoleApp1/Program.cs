@@ -16,13 +16,12 @@ namespace ConsoleApp1
 
             //titulo y descripcion de programa 
             Console.Title = "Numero al cuadrado con excepciones";
-            Console.WriteLine("Programa que eleva un numero entero al cuadrado");
+            Console.WriteLine("Programa que eleva un numero entero al cuadrado\n");
 
             //ciclo con el que se apoya la variable "error"
             do
             {
-                Console.Clear();
-
+                
                 //inicio de validadcion de datos
                 try
                 {
@@ -36,7 +35,7 @@ namespace ConsoleApp1
                     error = false;
                 }
                 //seccion que verifica el error
-                catch (FormatException e)
+                catch (FormatException e)//error de formato
                 {
                     //Mensaje de error
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -44,10 +43,17 @@ namespace ConsoleApp1
                     Console.ResetColor();
                     Console.WriteLine(e.Message);
                 }
+                catch (OverflowException x)//exceso de numeros
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Error");
+                    Console.ResetColor();
+                    Console.WriteLine(x.Message);
+                }
 
                 Console.WriteLine("Presione enter para continuar. . .");
                 Console.ReadKey();
-
+                Console.Clear();
             //El ciclo se repetira mientras el error sea verdadero
             } while (error == true);
             
